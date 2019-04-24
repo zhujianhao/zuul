@@ -1,0 +1,11 @@
+
+zuul:
+  routes:
+    data-canter:
+     path: /data-center/**
+     serviceId: data-center
+
+eureka:
+ client:
+   service-url:
+    defaultZone: http://XXX:1111/eureka/
